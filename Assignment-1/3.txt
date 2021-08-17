@@ -1,0 +1,1 @@
+select * from cust where Phone_number>55550000;
