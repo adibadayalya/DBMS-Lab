@@ -1,0 +1,1 @@
+select max(price) as 'Max_Price', min(Price) as 'Min_Price' from movie;

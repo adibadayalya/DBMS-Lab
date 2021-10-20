@@ -1,0 +1,1 @@
+select mv_no, title, type from movie where Star like 'R%';

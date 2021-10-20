@@ -1,0 +1,1 @@
+select Inv_no,Issue_date, dayofmonth(issue_date) as 'Day of Month',dayname(issue_date) as 'Day' from invoice;

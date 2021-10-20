@@ -1,0 +1,1 @@
+select count(Deposit.C_name) from Deposit, Borrow where Deposit.C_name=Borrow.C_name;

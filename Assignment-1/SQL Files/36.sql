@@ -1,0 +1,1 @@
+select Fname, Lname, Area from cust where cust_id = (select cust_id from invoice where inv_no ='A1');

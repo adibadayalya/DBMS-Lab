@@ -1,0 +1,2 @@
+select Return_date,current_date() as 'Current Date', timestampdiff(day,return_date,current_date()) as 'Difference in Days' from invoice;
+/*select Return_date,current_date() as 'Current Date', datediff(current_date(), return_date) as 'Difference in Days' from invoice;*/

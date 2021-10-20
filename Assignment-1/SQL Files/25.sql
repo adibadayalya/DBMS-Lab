@@ -1,0 +1,1 @@
+select Type, count(Type) as 'Number of Movies' from movie group by type;

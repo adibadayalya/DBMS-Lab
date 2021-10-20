@@ -1,0 +1,1 @@
+select title, type from movie where not type ='Action';

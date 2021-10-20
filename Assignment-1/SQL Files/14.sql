@@ -1,0 +1,1 @@
+select Title, Price,price/(price-100) as New_Price from movie where title='Deadpool';

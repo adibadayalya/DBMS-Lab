@@ -1,0 +1,1 @@
+select count(price) as 'No. of movies with price >= 150' from movie where price>=150;

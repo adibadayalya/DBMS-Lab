@@ -1,0 +1,1 @@
+select Type,Mv_no from movie where Mv_no in (select mv_no from invoice where cust_id in ('001','002'));

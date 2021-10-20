@@ -1,0 +1,1 @@
+select * from cust where Area like '_N';

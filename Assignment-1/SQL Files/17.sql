@@ -1,0 +1,1 @@
+select * from invoice where Issue_date like '%-07-__';

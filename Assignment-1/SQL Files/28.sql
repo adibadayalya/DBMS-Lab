@@ -1,0 +1,2 @@
+select Type,count(type) as 'Number of Movies', min(price) as 'Minimum Cost', sum(price) as 'Total Cost (each>=150)',
+sum(price)/count(type) as 'Average Cost' from movie where price >= 150 and (type = 'Comedy' or type ='Action') group by type; 

@@ -1,0 +1,1 @@
+select * from cust where lname like 'h%'or lname like 'p%';

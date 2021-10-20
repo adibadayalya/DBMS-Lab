@@ -1,0 +1,1 @@
+select Title from movie where Mv_no in (select mv_no from invoice where cust_id in (select cust_id from cust where Fname in ('Peter','Bruce')));

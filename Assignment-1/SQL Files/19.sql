@@ -1,0 +1,1 @@
+select sum(price) as 'Total Price' from movie;

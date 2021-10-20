@@ -1,0 +1,1 @@
+select Fname, Lname, Area, Cust_id from cust where Phone_number is null;

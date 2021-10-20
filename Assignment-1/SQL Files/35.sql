@@ -1,0 +1,1 @@
+select * from cust where cust_id = (select cust_id from invoice where mv_no = 3);

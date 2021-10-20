@@ -1,0 +1,1 @@
+select Title, Price * 15 as New_price from movie where Price > 150;

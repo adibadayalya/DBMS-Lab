@@ -1,0 +1,1 @@
+select * from cust where Area = 'NY' or Area = 'LN' or Area = 'GM'
